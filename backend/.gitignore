@@ -1,0 +1,28 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# History files
+.history/
+**/.history/
+
+# Dependencies
+node_modules/
+**/node_modules/
+vendor/
+
+# Build files
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Logs
+*.log
+
+# Temporary files
+~$*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+
+# Environment variables - never commit secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# History folders
+.history/
+**/.history/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build files
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Logs and temporary files
+*.log
+~$*
+.DS_Store
+Thumbs.db

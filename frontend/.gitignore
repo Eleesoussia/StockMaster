@@ -1,0 +1,15 @@
+@'
+
+# Never commit environment variables
+.env
+.env.*
+!.env.example
+
+# Ignore history and dependencies
+.history/
+node_modules/
+
+# Build files
+dist/
+build/
+'@ | Add-Content frontend/.gitignore
